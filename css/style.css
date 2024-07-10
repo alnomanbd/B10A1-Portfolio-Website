@@ -150,7 +150,18 @@ main section{
     padding: 12px 20px;
 }
 /* Inspiration Section Style */
-
+.ispiration-section{
+    margin: 50px 150px;
+    padding: 80px 97px;
+}
+.ispiration-section-content{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+iframe{
+    padding: 10px;
+    max-width: 1076px;
+}
 /* Current Target Section Style */
 
 /* Next Target Section Style */
