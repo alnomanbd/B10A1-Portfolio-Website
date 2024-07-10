@@ -21,10 +21,10 @@ body{
 }
 .section-head-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 24px;
 }
 .section-head-description{
     color: rgb(13, 19, 33);
@@ -210,6 +210,29 @@ main section{
     padding: 40px;
     border-radius: 16px;
 }
+
+.current-skill-logo{
+
+}
+.current-skill-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0;
+
+}
+.current-skill-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.skill-learn-more{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
 /* Next Target Section Style */
 .next-target-section{
     margin: 50px 150px;
@@ -222,6 +245,28 @@ main section{
     background: rgb(255, 255, 255);
     padding: 40px;
     margin-bottom: 24px;
+}
+.next-skill-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.next-skill-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.next-skill-content a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    
 }
 /* Support Section Style */
 .support-section{
