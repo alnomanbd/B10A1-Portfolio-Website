@@ -1,6 +1,7 @@
 /* Custom Font */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Universal Style */
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +11,14 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* Shared Styles */
 .section-head{
     padding: 0 47px;
@@ -150,17 +155,24 @@ main section{
     justify-content: space-between;
     padding: 48px;
 }
+.card-content_flex_reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:99px;
+    justify-content: space-between;
+    padding: 48px;
+}
 .card-text h3{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 .card-text p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 32px;
 }
 .learn-more-btn{
     border: 1px solid rgb(13, 19, 33);
