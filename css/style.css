@@ -168,17 +168,28 @@ iframe{
     margin: 50px 150px;
     border-radius: 16px;
 }
-.target-skills{
+.current-target-skills{
     display: flex;
     gap: 24px;
 }
-.skill{
+.current-skill{
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
 /* Next Target Section Style */
-
+.next-target-section{
+    margin: 50px 150px;
+}
+.next-skill{
+    display: flex;
+    gap: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 24px;
+}
 /* Support Section Style */
 
 /* Footer Styles */
