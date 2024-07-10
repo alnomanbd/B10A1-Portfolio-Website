@@ -226,7 +226,6 @@ main section{
 /* Support Section Style */
 .support-section{
     margin: 50px 150px;
-    height: 313px;
     border-radius: 16px;
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url('../images/handshake.jpg');
@@ -249,6 +248,7 @@ main section{
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 .support-section-head-description{
     color: rgb(255, 255, 255);
@@ -261,6 +261,7 @@ main section{
     gap: 16px;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 .support-section-foot input{
     border: 1px solid rgba(13, 19, 33, 0.15);
