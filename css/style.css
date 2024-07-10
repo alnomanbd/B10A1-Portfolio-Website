@@ -17,6 +17,7 @@ body{
 /* Shared Styles */
 .section-head{
     padding: 0 47px;
+    margin-bottom: 48px;
 }
 .section-head-title{
     color: rgb(13, 19, 33);
@@ -163,7 +164,19 @@ iframe{
     max-width: 1076px;
 }
 /* Current Target Section Style */
-
+.current-target-section{
+    margin: 50px 150px;
+    border-radius: 16px;
+}
+.target-skills{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
 /* Next Target Section Style */
 
 /* Support Section Style */
